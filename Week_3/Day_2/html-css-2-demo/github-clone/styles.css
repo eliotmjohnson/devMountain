@@ -1,0 +1,98 @@
+/*
+    charcoal background: #2D333B
+    black background: #22272E
+    outlines: #444C56
+    off white text: #CDD9E5
+    light gray text: #ACB9C6
+    orange underline: #EC775C
+    blue repo name: #539BF5
+    yellow JavaScript circle: #F1E05A
+    redorange HTML circle: #E34C26
+*/
+
+/*GLOBAL*/
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI',Helvetica,Arial,sans-serif;
+}
+
+body{
+    font-family: 'Segoe UI',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+header {
+    background-color: #2D333B;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#logo{
+    height: 35px;
+    margin-left: 25px;
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#notification-bell{
+    height: 15px;
+    margin-right: 10px;
+}
+
+#profile-pic{
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 15px;
+    gap: 15px;
+}
+
+#picture-profile{
+    height: 300px;
+    border-radius: 100%;
+    border: #dfdddd 2px solid;
+}
+
+#display-name{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#account-name{
+    font-weight: 100;
+    color:#939495;
+    font-size: 20px;
+}
+
+#plus-button{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+/*MAIN*/
+
+
+/*REPO NAV*/
+
+
+/*CONTAINER*/
+
+
+/*LEFT PROFILE*/
+
+
+/*RIGHT REPOS*/

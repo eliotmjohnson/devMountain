@@ -1,0 +1,39 @@
+header {
+    background-color: #444444;
+    height: 168px;
+}
+
+#main-div {
+    height: 800px;
+    background-color: #efefef;
+    display: flex;
+}
+
+#div1 {
+    width: 152px;
+    height: 800px;
+    background-color: #d8d8d8;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+
+#div2 {
+    width: 152px;
+    height: 800px;
+    background-color: #d8d8d8;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+#div3 {
+    width: 100%;
+    height: 80px;
+    background-color: #222222;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
