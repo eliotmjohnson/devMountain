@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+}
+
+h1 {
+  color: #50514f;
+  background-color: #f25f5c;
+  margin: 20px;
+  text-align: center;
+  font-weight: 200;
+  font-size: 5cm;
+  border: 20px #247ba0 dotted;
+}
+
+div {
+  background-color: #ffe066;
+  width: 50vw;
+  height: 500px;
+}
+
+div div {
+  background-color: #247ba0;
+  width: 25vw;
+  height: 1.5in;
+}
+
+h2,
+h4,
+h6 {
+  background-color: #70c1b3;
+  color: #f25f5c;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 30px 40px 50px;
+  border: 10px #50514f solid;
+}
