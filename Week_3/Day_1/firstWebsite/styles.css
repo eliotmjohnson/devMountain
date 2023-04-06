@@ -25,14 +25,10 @@ h3 {
 
 body {
 	background-image: url(./Images/JavaScript-code.jpg);
-	height: 100%;
-	background-position: center;
-	background-repeat: repeat;
 	background-size: cover;
-	background-attachment: fixed;
 	backdrop-filter: blur(10px);
-	padding: 0;
-	margin: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 p {
@@ -49,19 +45,19 @@ p {
 	width: auto;
 }
 
-.column {
-	float: left;
-	width: 33.33%;
-	padding: 0px;
-	margin: 0px;
-	display: block;
-	box-shadow: 0 0 10px #bfc0c0, 0 0 25px #bfc0c0;
-	padding: 0px;
+.row {
+	height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-	backdrop-filter: blur(10px);
+.images {
+	margin: 50px;
+	height: 350px;
+	box-shadow: 0 0 20px 5px rgb(207, 207, 207), 0 0 10px rgb(214, 214, 214);
+}
+
+.images.poop{
+	height: 500px;
 }
