@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url(https://www.zillow.com/report/2017/zgwp/wp-content/mu-plugins/wordpress-seo/images/zillow-placeholder.jpg);
+  backdrop-filter: blur(.2rem);
+  min-height: 40rem;
+  min-width: none;
+}
+
+header {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkslategray;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #0074e4;
+}
+
+.header-image {
+  max-height: 5rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+  padding: 0;
+}
+
+form {
+  width: 350px;
+  height: 350px;
+  background-color: #0074e4;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+  border-radius: 10%;
+}
+
+.inputs {
+  padding: 5px;
+  -webkit-border-radius: .7rem;
+  border: none;
+}
+
+.inputs:focus {
+  outline: none;
+}
+
+button {
+  background-color: #232323;
+  width: 75px;
+  height: 25px;
+  color: white;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: .2rem;
+}
+
+.form-buttonCont {
+  height: 35px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-button{
+  color: #60b2ff;
+  height: 5rem;
+  width: 10rem;
+}
+
+button:active {
+  width: 73px;
+  height: 23px;
+  font-size: 12px;
+}
+
+input[type='text'] {
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: snow;
+}
+
+#price-container {
+  width: 85%;
+}
+
+#radio-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#houses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.house-cover-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.house-card {
+  background-color: white;
+  max-width: 300px;
+  max-height: 400px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.house-address {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.house-price {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.btns-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin: 5px;
+}
+
+.btns-container>button {
+  width: 20px;
+  cursor: pointer;
+}
+
+.btns-container>button:active {
+  background-color: gray;
+  width: 18px;
+  height: 22px;
+}
+
+.delete-button {
+  cursor: pointer;
+}
+
+.delete-button:active {
+  background-color: gray;
+}
+
+.delete-cont {
+  width: 85px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
