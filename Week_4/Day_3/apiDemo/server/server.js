@@ -15,7 +15,7 @@ app.get("/api/pokemon/:name", (req, res) => {
 		.then((response) => {
 			console.log(response.data);
 			let pokeObj = {
-				name,
+				name: name,
 				sprite: response.data.sprites.front_default,
 			};
 			// for (let sprite in res.data.sprites) {
