@@ -10,3 +10,6 @@
 [submodule "Week_3/Day_1/firstWebsite"]
 	path = Week_3/Day_1/firstWebsite
 	url = https://github.com/eliotmjohnson/myFirstWebsite.git
+[submodule "Week_4/Assessment"]
+	path = Week_4/Assessment
+	url = https://github.com/eliotmjohnson/assessmentFour

@@ -60,8 +60,6 @@ const displayNum = (obj) => {
 // Delete Request
 
 const deleteName = (evt) => {
-	console.log(evt.target);
-
 	axios
 		.delete(`http://localhost:4000/api/names/${evt.target.id}`)
 		.then((res) => {
