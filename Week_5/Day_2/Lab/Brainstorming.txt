@@ -1,0 +1,30 @@
+// Users Table: For all user info
+1. user_id
+2. user_name
+3. password
+4. email
+
+// Ingredients Table: To store ingredient lists for recipes and for grocery lists
+1. ingredients_id
+3. ingredient_list
+
+// Recipes Table: To store the recipe instructions and have ingredients attached
+1. recipe_id
+2. user_id (from users)
+3. recipe_name
+5. ingredients_id (from ingredients)
+5. instructions
+6. private
+
+// Grocery List Table: To store grocery lists
+1. grocery_list_id
+2. user_id (from users)
+3. grocery_list_name
+4. grocery_list
+5. ingredients_id (from ingredients)
+
+// Occasions Table: To store occasions and assign recipes to them
+1. occasion_id
+2. user_id (from users)
+3. occasion_name
+4. recipe_id (from recipes)
