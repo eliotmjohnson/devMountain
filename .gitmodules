@@ -13,3 +13,6 @@
 [submodule "Week_4/Assessment"]
 	path = Week_4/Assessment
 	url = https://github.com/eliotmjohnson/assessmentFour
+[submodule "Week_5/Assessment"]
+	path = Week_5/Assessment
+	url = https://github.com/eliotmjohnson/assessmentFive
