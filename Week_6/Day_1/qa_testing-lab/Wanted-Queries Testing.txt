@@ -1,0 +1,10 @@
+1: high level (broad) tests:
+-Basic styling tests
+-Redirect tests
+
+2: Low level (specific) tests:
+-Checking if input field styling is working with error
+-Checking if error message pops up with errors in form and are correct
+
+3: Smoke/sanity test (basic run through of the whole site):
+-Multiple browser Test
