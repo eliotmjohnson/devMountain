@@ -97,9 +97,9 @@ function nested(numbers) {
 // ANSWER: O(1)
 
 // 7) -------------------------------------------------------
-let numbers = [76, 35, 73, 13, 4, 88, 23, 12, 86, 1, 54, 9, 10, 2];
+let nums = [76, 35, 73, 13, 4, 88, 23, 12, 86, 1, 54, 9, 10, 2];
 // remember numbers could be reassigned, added to, etc.
-let newNumbersA = numbers.filter((num) => {
+let newNumbersA = nums.filter((num) => {
 	return num < 5;
 });
 // Q: What is the time complexity of the filter higher-order function?
