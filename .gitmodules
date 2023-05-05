@@ -19,3 +19,6 @@
 [submodule "Week_6/Assessment"]
 	path = Week_6/Assessment
 	url = https://github.com/eliotmjohnson/assessmentSix.git
+[submodule "Week_7/Assessment"]
+	path = Week_7/Assessment
+	url = https://github.com/eliotmjohnson/assessmentSeven
